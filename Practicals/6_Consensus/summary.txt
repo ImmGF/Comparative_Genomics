@@ -1,0 +1,26 @@
+Saccharomycetales
+++Debaryomycetaceae
+| \-Debaryomyces hansenii
+++Dipodascaceae
+| \-Yarrowia lipolytica
+\-Saccharomycetaceae
+  +-Eremothecium
+  | \-Eremothecium gossypii
+  +-Kluyveromyces
+  | \-Kluyveromyces lactis
+  +-Nakaseomyces
+  | \-[Candida] glabrata
+  +-Zygosaccharomyces
+  | \-Zygosaccharomyces rouxii
+  +-Lachancea
+  | +-Lachancea thermotolerans
+  | \-Lachancea kluyveri
+  \-Saccharomyces
+    \-Saccharomyces cerevisiae
+-----------------------------------
+
+The above tree is downloaded to the text file 'commontree.txt' from https://www.ncbi.nlm.nih.gov/Taxonomy/CommonTree/wwwcmt.cgi.
+The majority consensus tree 'detected' the weakest association of Debaryomyces hansenii (DEHA) and Yarrowia lipolytica (YALI) (they are the most distant to other species. Additionally, it detected a close association with Lachancea kluyveri (SAKL) and Lachancea thermotolerans (KLTH) - consistent with the overall tree species.
+
+[pl. Powyższe drzewo jest ściągniete do pliku tekstowego 'commontree.txt' z https://www.ncbi.nlm.nih.gov/Taxonomy/CommonTree/wwwcmt.cgi.
+Drzewo konsensusowe większościowe 'wykryło' najsłabszy związek Debaryomyces hansenii (DEHA) oraz Yarrowia lipolytica (YALI) (są najbardziej odległe w stosunku do innych gtaunków. Dodatkowo wykryło bliski związek z Lachancea kluyveri (SAKL) oraz Lachancea thermotolerans (KLTH) - zgodny z ogólnym drzewem gatunków.]
