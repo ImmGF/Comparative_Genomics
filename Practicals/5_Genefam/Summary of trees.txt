@@ -1,0 +1,7 @@
+All trees generated be each of the methods (ML, NJ, MP) well resemble general taxonomy of species. 
+
+Horse species (Equus Burchelli, Equus przewalskii, Equus hemionus, Equus Zebra, Equus asinus) are  clustered together in every of three trees. Fish like cod (Gadus morhua), tuna (Thunnus thynuns)  are clustered together, are the furtherst from any other species in the tree and at the same time the closest species to them are frog (Xenopus tropicalis) and viper (Crotalus_adamanteus).
+
+Moreover according to all of the trees 'horse-taxon' is closely related to 'apes/monkeys taxon" (Homo sapiens, Papio anubis). Then this 'horse-apes/monkeys taxon' is closer related to 'rodent taxon' (Mus musculus) than any other taxon.
+
+One weird anomaly that one can find is that in NJ tree beaver (Castor fiber) are closer related to fish, reptiles and  amphibians than to other mammals (especially do other rodents like mice).
