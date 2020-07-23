@@ -1,0 +1,462 @@
+The analysis used 5 gene families, 20 sequences each.
+UCLUST, CD-HIT, mcl, blastclust methods were used.
+
+Results:
+Each of the resulting clusters is a subset of one of the gene families. In each of the methods, it was possible to select such parameters that the clusters would contain sequences from one family. It should be noted that in the case of 3 methods, it was not possible to obtain 5 clusters corresponding to the expected ones, i.e .:
+- UCLUST gave 8 clusters (cluster2 and cluster3 are 'Adrenergic_receptors'; cluster4 and cluster5 are 'Angiotensin_receptors'; cluster6 and cluster7 are 'Chemokines_and_chemotactic_factors_receptors')
+- CD_HIT gave 9 clusters (cluster0 and cluster3 is 'Acetylcholine_ (muscarinic) _receptors'; cluster1 and cluster2 is 'Adrenergic_receptors'; cluster6 i cluster7 is 'Angiotensin_receptor'; cluster5 i cluster8 is 'Chemokines_and_chemotactic_factors_receptors'
+In the case of MCL, it was possible to adjust the sensitivity so that the obtained clusters correspond to the division into families.
+- blastclust gave 16 clusters
+
+As mentioned earlier, all of these methods gave clusters consistent in terms of the expected clusters, while 3 of these methods gave higher resolution and within particular protein classes, gave higher resolution clusters in which you can see proteins divided into domains (e.g. ADA1 and ADA2 within 'Adrenergic_receptors' or AGTR1 and AGTR2 within 'Angiotensin_receptors')
+
+expected clusters: 5
+    Acetylcholine_(muscarinic)_receptors 
+    Adenosine_and_adenine_nucleotide_receptors
+    Adrenergic_receptors
+    Angiotensin_receptors
+    Chemokines_and_chemotactic_factors_receptors
+
+<<<<<UCLUST>>>>>:
+cluster0:
+[   'P04761|ACM1_PIG|Acetylcholine_(muscarinic)_receptors',
+    'P08482|ACM1_RAT|Acetylcholine_(muscarinic)_receptors',
+    'P30372|ACM2_CHICK|Acetylcholine_(muscarinic)_receptors',
+    'P06199|ACM2_PIG|Acetylcholine_(muscarinic)_receptors',
+    'P10980|ACM2_RAT|Acetylcholine_(muscarinic)_receptors',
+    'P41984|ACM3_BOVIN|Acetylcholine_(muscarinic)_receptors',
+    'Q9N2A3|ACM3_GORGO|Acetylcholine_(muscarinic)_receptors',
+    'Q9ERZ3|ACM3_MOUSE|Acetylcholine_(muscarinic)_receptors',
+    'Q9N2A4|ACM3_PANTR|Acetylcholine_(muscarinic)_receptors',
+    'P56489|ACM1_MACMU|Acetylcholine_(muscarinic)_receptors',
+    'P12657|ACM1_MOUSE|Acetylcholine_(muscarinic)_receptors',
+    'Q9ERZ4|ACM2_MOUSE|Acetylcholine_(muscarinic)_receptors',
+    'P20309|ACM3_HUMAN|Acetylcholine_(muscarinic)_receptors',
+    'Q5R949|ACM1_PONAB|Acetylcholine_(muscarinic)_receptors',
+    'P08172|ACM2_HUMAN|Acetylcholine_(muscarinic)_receptors',
+    'P11483|ACM3_PIG|Acetylcholine_(muscarinic)_receptors',
+    'P11229|ACM1_HUMAN|Acetylcholine_(muscarinic)_receptors',
+    'P41985|ACM2_BOVIN|Acetylcholine_(muscarinic)_receptors',
+    'Q9N2A7|ACM2_PANTR|Acetylcholine_(muscarinic)_receptors',
+    'Q9N2A2|ACM3_PONPY|Acetylcholine_(muscarinic)_receptors']
+cluster1:
+[   'P30542|AA1R_HUMAN|Adenosine_and_adenine_nucleotide_receptors',
+    'Q60612|AA1R_MOUSE|Adenosine_and_adenine_nucleotide_receptors',
+    'Q5RF57|AA1R_PONAB|Adenosine_and_adenine_nucleotide_receptors',
+    'P29274|AA2AR_HUMAN|Adenosine_and_adenine_nucleotide_receptors',
+    'Q1LZD0|AA2BR_BOVIN|Adenosine_and_adenine_nucleotide_receptors',
+    'P30543|AA2AR_RAT|Adenosine_and_adenine_nucleotide_receptors',
+    'Q60614|AA2BR_MOUSE|Adenosine_and_adenine_nucleotide_receptors',
+    'Q32ZE2|AA2BR_RABIT|Adenosine_and_adenine_nucleotide_receptors',
+    'P11616|AA1R_CANLF|Adenosine_and_adenine_nucleotide_receptors',
+    'P47745|AA1R_CAVPO|Adenosine_and_adenine_nucleotide_receptors',
+    'P49892|AA1R_CHICK|Adenosine_and_adenine_nucleotide_receptors',
+    'P34970|AA1R_RABIT|Adenosine_and_adenine_nucleotide_receptors',
+    'P25099|AA1R_RAT|Adenosine_and_adenine_nucleotide_receptors',
+    'P46616|AA2AR_CAVPO|Adenosine_and_adenine_nucleotide_receptors',
+    'Q6TLI7|AA2AR_HORSE|Adenosine_and_adenine_nucleotide_receptors',
+    'Q6W3F4|AA2BR_CANLF|Adenosine_and_adenine_nucleotide_receptors',
+    'P29275|AA2BR_HUMAN|Adenosine_and_adenine_nucleotide_receptors',
+    'P28190|AA1R_BOVIN|Adenosine_and_adenine_nucleotide_receptors',
+    'P11617|AA2AR_CANLF|Adenosine_and_adenine_nucleotide_receptors',
+    'Q60613|AA2AR_MOUSE|Adenosine_and_adenine_nucleotide_receptors']
+cluster2:
+[   'Q9WU25|ADA1A_CAVPO|Adrenergic_receptors',
+    'P97718|ADA1A_MOUSE|Adrenergic_receptors',
+    'Q91175|ADA1A_ORYLA|Adrenergic_receptors',
+    'P11615|ADA1B_CANLF|Adrenergic_receptors',
+    'P35368|ADA1B_HUMAN|Adrenergic_receptors',
+    'P23944|ADA1D_RAT|Adrenergic_receptors',
+    'P43140|ADA1A_RAT|Adrenergic_receptors',
+    'P97717|ADA1B_MOUSE|Adrenergic_receptors',
+    'P25100|ADA1D_HUMAN|Adrenergic_receptors',
+    'O02666|ADA1D_RABIT|Adrenergic_receptors',
+    'O02824|ADA1A_RABIT|Adrenergic_receptors',
+    'P15823|ADA1B_RAT|Adrenergic_receptors',
+    'P97714|ADA1D_MOUSE|Adrenergic_receptors',
+    'P18130|ADA1A_BOVIN|Adrenergic_receptors',
+    'O77621|ADA1A_CANLF|Adrenergic_receptors',
+    'P35348|ADA1A_HUMAN|Adrenergic_receptors',
+    'P18841|ADA1B_MESAU|Adrenergic_receptors',
+    'Q9TTM9|ADA1D_PIG|Adrenergic_receptors']
+cluster3:
+[   'Q28838|ADA2A_BOVIN|Adrenergic_receptors',
+    'Q60474|ADA2A_CAVPO|Adrenergic_receptors']
+cluster4:
+[   'Q9WV26|AGTR1_CAVPO|Angiotensin_receptors',
+    'P30555|AGTR1_PIG|Angiotensin_receptors',
+    'O77590|AGTR1_SHEEP|Angiotensin_receptors',
+    'P30556|AGTR1_HUMAN|Angiotensin_receptors',
+    'P29089|AGTRB_RAT|Angiotensin_receptors',
+    'P79785|AGTR1_CHICK|Angiotensin_receptors',
+    'O35210|AGTR1_MERUN|Angiotensin_receptors',
+    'P29754|AGTRA_MOUSE|Angiotensin_receptors',
+    'Q9GLN9|AGTR1_PANTR|Angiotensin_receptors',
+    'P32303|AGTRA_XENLA|Angiotensin_receptors',
+    'P35373|AGTRB_XENLA|Angiotensin_receptors',
+    'P25104|AGTR1_BOVIN|Angiotensin_receptors',
+    'P43240|AGTR1_CANLF|Angiotensin_receptors',
+    'P34976|AGTR1_RABIT|Angiotensin_receptors',
+    'P29755|AGTRB_MOUSE|Angiotensin_receptors',
+    'P25095|AGTRA_RAT|Angiotensin_receptors',
+    'P33396|AGTR1_MELGA|Angiotensin_receptors']
+cluster5:
+[   'P50052|AGTR2_HUMAN|Angiotensin_receptors',
+    'P35374|AGTR2_MOUSE|Angiotensin_receptors',
+    'Q9Z0Z6|AGTR2_MERUN|Angiotensin_receptors']
+cluster6:
+[   'Q9JII9|CXCR3_RAT|Chemokines_and_chemotactic_factors_receptors',
+    'Q5KSK8|CXCR3_CANLF|Chemokines_and_chemotactic_factors_receptors',
+    'Q867B2|CXCR3_CAPHI|Chemokines_and_chemotactic_factors_receptors',
+    'O88410|CXCR3_MOUSE|Chemokines_and_chemotactic_factors_receptors',
+    'Q5MD61|CXCR3_BOVIN|Chemokines_and_chemotactic_factors_receptors',
+    'P49682|CXCR3_HUMAN|Chemokines_and_chemotactic_factors_receptors']
+cluster7:
+[   'P61073|CXCR4_HUMAN|Chemokines_and_chemotactic_factors_receptors',
+    'P61072|CXCR4_PANTR|Chemokines_and_chemotactic_factors_receptors',
+    'P56491|CXCR4_PAPAN|Chemokines_and_chemotactic_factors_receptors',
+    'P56498|CXCR4_FELCA|Chemokines_and_chemotactic_factors_receptors',
+    'P79394|CXCR4_MACMU|Chemokines_and_chemotactic_factors_receptors',
+    'Q9TSQ8|CXCR4_CHLAE|Chemokines_and_chemotactic_factors_receptors',
+    'P70658|CXCR4_MOUSE|Chemokines_and_chemotactic_factors_receptors',
+    'Q764M9|CXCR4_PIG|Chemokines_and_chemotactic_factors_receptors',
+    'P25930|CXCR4_BOVIN|Chemokines_and_chemotactic_factors_receptors',
+    'Q8HZU1|CXCR4_CALJA|Chemokines_and_chemotactic_factors_receptors',
+    'Q3LSL6|CXCR4_CANLF|Chemokines_and_chemotactic_factors_receptors',
+    'O62747|CXCR4_CERAT|Chemokines_and_chemotactic_factors_receptors',
+    'Q28474|CXCR4_MACFA|Chemokines_and_chemotactic_factors_receptors',
+    'Q8HZU0|CXCR4_SAISC|Chemokines_and_chemotactic_factors_receptors']
+
+<<<<<CD-HIT>>>>>:
+[   '>Cluster 0\n',
+    '0\t460aa, >P11229|ACM1_HUMAN|Acetylcholine_(muscar... at 43.70%\n',
+    '1\t460aa, >P56489|ACM1_MACMU|Acetylcholine_(muscar... at 44.13%\n',
+    '2\t460aa, >P12657|ACM1_MOUSE|Acetylcholine_(muscar... at 42.61%\n',
+    '3\t460aa, >P04761|ACM1_PIG|Acetylcholine_(muscarin... at 42.61%\n',
+    '4\t460aa, >Q5R949|ACM1_PONAB|Acetylcholine_(muscar... at 43.70%\n',
+    '5\t460aa, >P08482|ACM1_RAT|Acetylcholine_(muscarin... at 42.83%\n',
+    '6\t590aa, >P41984|ACM3_BOVIN|Acetylcholine_(muscar... *\n',
+    '7\t590aa, >Q9N2A3|ACM3_GORGO|Acetylcholine_(muscar... at 94.58%\n',
+    '8\t590aa, >P20309|ACM3_HUMAN|Acetylcholine_(muscar... at 94.92%\n',
+    '9\t589aa, >Q9ERZ3|ACM3_MOUSE|Acetylcholine_(muscar... at 92.36%\n',
+    '10\t590aa, >Q9N2A4|ACM3_PANTR|Acetylcholine_(muscar... at 94.41%\n',
+    '11\t590aa, >P11483|ACM3_PIG|Acetylcholine_(muscarin... at 98.14%\n',
+    '12\t590aa, >Q9N2A2|ACM3_PONPY|Acetylcholine_(muscar... at 94.41%\n',
+    '>Cluster 1\n',
+    '0\t466aa, >P18130|ADA1A_BOVIN|Adrenergic_receptors... at 48.50%\n',
+    '1\t295aa, >O77621|ADA1A_CANLF|Adrenergic_receptors... at 55.93%\n',
+    '2\t466aa, >Q9WU25|ADA1A_CAVPO|Adrenergic_receptors... at 48.07%\n',
+    '3\t466aa, >P35348|ADA1A_HUMAN|Adrenergic_receptors... at 47.21%\n',
+    '4\t466aa, >P97718|ADA1A_MOUSE|Adrenergic_receptors... at 47.21%\n',
+    '5\t466aa, >O02824|ADA1A_RABIT|Adrenergic_receptors... at 47.21%\n',
+    '6\t466aa, >P43140|ADA1A_RAT|Adrenergic_receptors... at 48.07%\n',
+    '7\t470aa, >Q91175|ADA1A_ORYLA|Adrenergic_receptors... at 46.81%\n',
+    '8\t417aa, >P11615|ADA1B_CANLF|Adrenergic_receptors... at 50.60%\n',
+    '9\t520aa, >P35368|ADA1B_HUMAN|Adrenergic_receptors... at 49.81%\n',
+    '10\t515aa, >P18841|ADA1B_MESAU|Adrenergic_receptors... at 50.29%\n',
+    '11\t514aa, >P97717|ADA1B_MOUSE|Adrenergic_receptors... at 50.19%\n',
+    '12\t515aa, >P15823|ADA1B_RAT|Adrenergic_receptors... at 49.90%\n',
+    '13\t572aa, >P25100|ADA1D_HUMAN|Adrenergic_receptors... at 89.86%\n',
+    '14\t562aa, >P97714|ADA1D_MOUSE|Adrenergic_receptors... at 80.96%\n',
+    '15\t571aa, >Q9TTM9|ADA1D_PIG|Adrenergic_receptors... at 84.94%\n',
+    '16\t576aa, >O02666|ADA1D_RABIT|Adrenergic_receptors... *\n',
+    '17\t561aa, >P23944|ADA1D_RAT|Adrenergic_receptors... at 86.10%\n',
+    '>Cluster 2\n',
+    '0\t468aa, >Q28838|ADA2A_BOVIN|Adrenergic_receptors... *\n',
+    '1\t464aa, >Q60474|ADA2A_CAVPO|Adrenergic_receptors... at 89.87%\n',
+    '>Cluster 3\n',
+    '0\t465aa, >P41985|ACM2_BOVIN|Acetylcholine_(muscar... at 86.88%\n',
+    '1\t466aa, >P30372|ACM2_CHICK|Acetylcholine_(muscar... *\n',
+    '2\t466aa, >P08172|ACM2_HUMAN|Acetylcholine_(muscar... at 86.48%\n',
+    '3\t466aa, >Q9ERZ4|ACM2_MOUSE|Acetylcholine_(muscar... at 85.41%\n',
+    '4\t440aa, >Q9N2A7|ACM2_PANTR|Acetylcholine_(muscar... at 87.05%\n',
+    '5\t466aa, >P06199|ACM2_PIG|Acetylcholine_(muscarin... at 85.62%\n',
+    '6\t466aa, >P10980|ACM2_RAT|Acetylcholine_(muscarin... at 85.62%\n',
+    '>Cluster 4\n',
+    '0\t326aa, >P28190|AA1R_BOVIN|Adenosine_and_adenine... at 49.69%\n',
+    '1\t326aa, >P11616|AA1R_CANLF|Adenosine_and_adenine... at 48.77%\n',
+    '2\t326aa, >P47745|AA1R_CAVPO|Adenosine_and_adenine... at 48.77%\n',
+    '3\t324aa, >P49892|AA1R_CHICK|Adenosine_and_adenine... at 45.37%\n',
+    '4\t326aa, >P30542|AA1R_HUMAN|Adenosine_and_adenine... at 49.39%\n',
+    '5\t326aa, >Q60612|AA1R_MOUSE|Adenosine_and_adenine... at 48.16%\n',
+    '6\t326aa, >Q5RF57|AA1R_PONAB|Adenosine_and_adenine... at 48.47%\n',
+    '7\t328aa, >P34970|AA1R_RABIT|Adenosine_and_adenine... at 48.78%\n',
+    '8\t326aa, >P25099|AA1R_RAT|Adenosine_and_adenine_n... at 48.16%\n',
+    '9\t412aa, >P11617|AA2AR_CANLF|Adenosine_and_adenin... *\n',
+    '10\t409aa, >P46616|AA2AR_CAVPO|Adenosine_and_adenin... at 87.29%\n',
+    '11\t412aa, >Q6TLI7|AA2AR_HORSE|Adenosine_and_adenin... at 90.29%\n',
+    '12\t412aa, >P29274|AA2AR_HUMAN|Adenosine_and_adenin... at 93.20%\n',
+    '13\t410aa, >Q60613|AA2AR_MOUSE|Adenosine_and_adenin... at 82.44%\n',
+    '14\t410aa, >P30543|AA2AR_RAT|Adenosine_and_adenine_... at 82.93%\n',
+    '15\t332aa, >Q1LZD0|AA2BR_BOVIN|Adenosine_and_adenin... at 56.02%\n',
+    '16\t332aa, >Q6W3F4|AA2BR_CANLF|Adenosine_and_adenin... at 58.43%\n',
+    '17\t332aa, >P29275|AA2BR_HUMAN|Adenosine_and_adenin... at 58.13%\n',
+    '18\t332aa, >Q60614|AA2BR_MOUSE|Adenosine_and_adenin... at 59.34%\n',
+    '19\t332aa, >Q32ZE2|AA2BR_RABIT|Adenosine_and_adenin... at 59.34%\n',
+    '>Cluster 5\n',
+    '0\t366aa, >Q5MD61|CXCR3_BOVIN|Chemokines_and_chemo... at 87.43%\n',
+    '1\t365aa, >Q5KSK8|CXCR3_CANLF|Chemokines_and_chemo... at 85.75%\n',
+    '2\t366aa, >Q867B2|CXCR3_CAPHI|Chemokines_and_chemo... at 89.07%\n',
+    '3\t368aa, >P49682|CXCR3_HUMAN|Chemokines_and_chemo... *\n',
+    '4\t367aa, >O88410|CXCR3_MOUSE|Chemokines_and_chemo... at 86.65%\n',
+    '5\t367aa, >Q9JII9|CXCR3_RAT|Chemokines_and_chemota... at 86.65%\n',
+    '>Cluster 6\n',
+    '0\t359aa, >P25104|AGTR1_BOVIN|Angiotensin_receptor... at 62.95%\n',
+    '1\t359aa, >P43240|AGTR1_CANLF|Angiotensin_receptor... at 63.51%\n',
+    '2\t359aa, >Q9WV26|AGTR1_CAVPO|Angiotensin_receptor... at 63.51%\n',
+    '3\t359aa, >P30555|AGTR1_PIG|Angiotensin_receptors... at 63.51%\n',
+    '4\t359aa, >P34976|AGTR1_RABIT|Angiotensin_receptor... at 63.23%\n',
+    '5\t359aa, >O77590|AGTR1_SHEEP|Angiotensin_receptor... at 62.95%\n',
+    '6\t359aa, >O35210|AGTR1_MERUN|Angiotensin_receptor... at 64.07%\n',
+    '7\t359aa, >P30556|AGTR1_HUMAN|Angiotensin_receptor... at 63.23%\n',
+    '8\t359aa, >P29754|AGTRA_MOUSE|Angiotensin_receptor... at 61.56%\n',
+    '9\t359aa, >P29755|AGTRB_MOUSE|Angiotensin_receptor... at 62.95%\n',
+    '10\t359aa, >Q9GLN9|AGTR1_PANTR|Angiotensin_receptor... at 63.51%\n',
+    '11\t359aa, >P25095|AGTRA_RAT|Angiotensin_receptors... at 63.51%\n',
+    '12\t359aa, >P29089|AGTRB_RAT|Angiotensin_receptors... at 62.12%\n',
+    '13\t359aa, >P79785|AGTR1_CHICK|Angiotensin_receptor... at 63.23%\n',
+    '14\t359aa, >P33396|AGTR1_MELGA|Angiotensin_receptor... at 63.23%\n',
+    '15\t362aa, >P32303|AGTRA_XENLA|Angiotensin_receptor... at 88.95%\n',
+    '16\t363aa, >P35373|AGTRB_XENLA|Angiotensin_receptor... *\n',
+    '>Cluster 7\n',
+    '0\t363aa, >P50052|AGTR2_HUMAN|Angiotensin_receptor... *\n',
+    '1\t363aa, >Q9Z0Z6|AGTR2_MERUN|Angiotensin_receptor... at 90.91%\n',
+    '2\t363aa, >P35374|AGTR2_MOUSE|Angiotensin_receptor... at 91.74%\n',
+    '>Cluster 8\n',
+    '0\t353aa, >P25930|CXCR4_BOVIN|Chemokines_and_chemo... at 87.82%\n',
+    '1\t352aa, >Q8HZU1|CXCR4_CALJA|Chemokines_and_chemo... at 91.76%\n',
+    '2\t353aa, >Q3LSL6|CXCR4_CANLF|Chemokines_and_chemo... at 89.24%\n',
+    '3\t352aa, >Q9TSQ8|CXCR4_CHLAE|Chemokines_and_chemo... at 91.19%\n',
+    '4\t352aa, >O62747|CXCR4_CERAT|Chemokines_and_chemo... at 90.62%\n',
+    '5\t353aa, >P56498|CXCR4_FELCA|Chemokines_and_chemo... at 89.24%\n',
+    '6\t352aa, >P61073|CXCR4_HUMAN|Chemokines_and_chemo... at 91.19%\n',
+    '7\t352aa, >Q28474|CXCR4_MACFA|Chemokines_and_chemo... at 91.48%\n',
+    '8\t352aa, >P79394|CXCR4_MACMU|Chemokines_and_chemo... at 91.19%\n',
+    '9\t359aa, >P70658|CXCR4_MOUSE|Chemokines_and_chemo... *\n',
+    '10\t352aa, >P61072|CXCR4_PANTR|Chemokines_and_chemo... at 91.19%\n',
+    '11\t352aa, >P56491|CXCR4_PAPAN|Chemokines_and_chemo... at 91.76%\n',
+    '12\t353aa, >Q764M9|CXCR4_PIG|Chemokines_and_chemota... at 89.52%\n',
+    '13\t352aa, >Q8HZU0|CXCR4_SAISC|Chemokines_and_chemo... at 91.76%\n']
+
+<<<<<mcl>>>>>:
+[   'P11229|ACM1_HUMAN|Acetylcholine_(muscarinic)_receptors\t'
+    'P56489|ACM1_MACMU|Acetylcholine_(muscarinic)_receptors\t'
+    'Q5R949|ACM1_PONAB|Acetylcholine_(muscarinic)_receptors\t'
+    'P04761|ACM1_PIG|Acetylcholine_(muscarinic)_receptors\t'
+    'P12657|ACM1_MOUSE|Acetylcholine_(muscarinic)_receptors\t'
+    'P08482|ACM1_RAT|Acetylcholine_(muscarinic)_receptors\t'
+    'Q9N2A4|ACM3_PANTR|Acetylcholine_(muscarinic)_receptors\t'
+    'P20309|ACM3_HUMAN|Acetylcholine_(muscarinic)_receptors\t'
+    'Q9N2A3|ACM3_GORGO|Acetylcholine_(muscarinic)_receptors\t'
+    'P11483|ACM3_PIG|Acetylcholine_(muscarinic)_receptors\t'
+    'Q9N2A2|ACM3_PONPY|Acetylcholine_(muscarinic)_receptors\t'
+    'P41984|ACM3_BOVIN|Acetylcholine_(muscarinic)_receptors\t'
+    'Q9ERZ3|ACM3_MOUSE|Acetylcholine_(muscarinic)_receptors\t'
+    'P10980|ACM2_RAT|Acetylcholine_(muscarinic)_receptors\t'
+    'Q9ERZ4|ACM2_MOUSE|Acetylcholine_(muscarinic)_receptors\t'
+    'P08172|ACM2_HUMAN|Acetylcholine_(muscarinic)_receptors\t'
+    'P41985|ACM2_BOVIN|Acetylcholine_(muscarinic)_receptors\t'
+    'P06199|ACM2_PIG|Acetylcholine_(muscarinic)_receptors\t'
+    'Q9N2A7|ACM2_PANTR|Acetylcholine_(muscarinic)_receptors\t'
+    'P30372|ACM2_CHICK|Acetylcholine_(muscarinic)_receptors\t'
+    'Q28838|ADA2A_BOVIN|Adrenergic_receptors\t'
+    'Q60474|ADA2A_CAVPO|Adrenergic_receptors\n',
+
+    'P11616|AA1R_CANLF|Adenosine_and_adenine_nucleotide_receptors\t'
+    'P30542|AA1R_HUMAN|Adenosine_and_adenine_nucleotide_receptors\t'
+    'P34970|AA1R_RABIT|Adenosine_and_adenine_nucleotide_receptors\t'
+    'P28190|AA1R_BOVIN|Adenosine_and_adenine_nucleotide_receptors\t'
+    'Q5RF57|AA1R_PONAB|Adenosine_and_adenine_nucleotide_receptors\t'
+    'Q6TLI7|AA2AR_HORSE|Adenosine_and_adenine_nucleotide_receptors\t'
+    'P46616|AA2AR_CAVPO|Adenosine_and_adenine_nucleotide_receptors\t'
+    'P29274|AA2AR_HUMAN|Adenosine_and_adenine_nucleotide_receptors\t'
+    'P47745|AA1R_CAVPO|Adenosine_and_adenine_nucleotide_receptors\t'
+    'P49892|AA1R_CHICK|Adenosine_and_adenine_nucleotide_receptors\t'
+    'Q60612|AA1R_MOUSE|Adenosine_and_adenine_nucleotide_receptors\t'
+    'P25099|AA1R_RAT|Adenosine_and_adenine_nucleotide_receptors\t'
+    'P11617|AA2AR_CANLF|Adenosine_and_adenine_nucleotide_receptors\t'
+    'Q60613|AA2AR_MOUSE|Adenosine_and_adenine_nucleotide_receptors\t'
+    'P30543|AA2AR_RAT|Adenosine_and_adenine_nucleotide_receptors\t'
+    'Q1LZD0|AA2BR_BOVIN|Adenosine_and_adenine_nucleotide_receptors\t'
+    'Q32ZE2|AA2BR_RABIT|Adenosine_and_adenine_nucleotide_receptors\t'
+    'Q6W3F4|AA2BR_CANLF|Adenosine_and_adenine_nucleotide_receptors\t'
+    'Q60614|AA2BR_MOUSE|Adenosine_and_adenine_nucleotide_receptors\t'
+    'P29275|AA2BR_HUMAN|Adenosine_and_adenine_nucleotide_receptors\n',
+
+    'Q9GLN9|AGTR1_PANTR|Angiotensin_receptors\t'
+    'P30556|AGTR1_HUMAN|Angiotensin_receptors\t'
+    'P25104|AGTR1_BOVIN|Angiotensin_receptors\t'
+    'Q9WV26|AGTR1_CAVPO|Angiotensin_receptors\t'
+    'O77590|AGTR1_SHEEP|Angiotensin_receptors\t'
+    'P34976|AGTR1_RABIT|Angiotensin_receptors\t'
+    'P29089|AGTRB_RAT|Angiotensin_receptors\t'
+    'P30555|AGTR1_PIG|Angiotensin_receptors\t'
+    'P29755|AGTRB_MOUSE|Angiotensin_receptors\t'
+    'P43240|AGTR1_CANLF|Angiotensin_receptors\t'
+    'P35373|AGTRB_XENLA|Angiotensin_receptors\t'
+    'P25095|AGTRA_RAT|Angiotensin_receptors\t'
+    'P29754|AGTRA_MOUSE|Angiotensin_receptors\t'
+    'O35210|AGTR1_MERUN|Angiotensin_receptors\t'
+    'P32303|AGTRA_XENLA|Angiotensin_receptors\t'
+    'P79785|AGTR1_CHICK|Angiotensin_receptors\t'
+    'P33396|AGTR1_MELGA|Angiotensin_receptors\t'
+    'P50052|AGTR2_HUMAN|Angiotensin_receptors\t'
+    'P35374|AGTR2_MOUSE|Angiotensin_receptors\t'
+    'Q9Z0Z6|AGTR2_MERUN|Angiotensin_receptors\n',
+
+    'Q867B2|CXCR3_CAPHI|Chemokines_and_chemotactic_factors_receptors\t'
+    'Q5MD61|CXCR3_BOVIN|Chemokines_and_chemotactic_factors_receptors\t'
+    'Q5KSK8|CXCR3_CANLF|Chemokines_and_chemotactic_factors_receptors\t'
+    'Q764M9|CXCR4_PIG|Chemokines_and_chemotactic_factors_receptors\t'
+    'P70658|CXCR4_MOUSE|Chemokines_and_chemotactic_factors_receptors\t'
+    'P61072|CXCR4_PANTR|Chemokines_and_chemotactic_factors_receptors\t'
+    'P61073|CXCR4_HUMAN|Chemokines_and_chemotactic_factors_receptors\t'
+    'P56491|CXCR4_PAPAN|Chemokines_and_chemotactic_factors_receptors\t'
+    'Q8HZU1|CXCR4_CALJA|Chemokines_and_chemotactic_factors_receptors\t'
+    'Q8HZU0|CXCR4_SAISC|Chemokines_and_chemotactic_factors_receptors\t'
+    'O62747|CXCR4_CERAT|Chemokines_and_chemotactic_factors_receptors\t'
+    'Q3LSL6|CXCR4_CANLF|Chemokines_and_chemotactic_factors_receptors\t'
+    'Q28474|CXCR4_MACFA|Chemokines_and_chemotactic_factors_receptors\t'
+    'Q9TSQ8|CXCR4_CHLAE|Chemokines_and_chemotactic_factors_receptors\t'
+    'P56498|CXCR4_FELCA|Chemokines_and_chemotactic_factors_receptors\t'
+    'P25930|CXCR4_BOVIN|Chemokines_and_chemotactic_factors_receptors\t'
+    'P49682|CXCR3_HUMAN|Chemokines_and_chemotactic_factors_receptors\t'
+    'P79394|CXCR4_MACMU|Chemokines_and_chemotactic_factors_receptors\t'
+    'O88410|CXCR3_MOUSE|Chemokines_and_chemotactic_factors_receptors\t'
+    'Q9JII9|CXCR3_RAT|Chemokines_and_chemotactic_factors_receptors\n',
+
+    'Q91175|ADA1A_ORYLA|Adrenergic_receptors\t'
+    'P43140|ADA1A_RAT|Adrenergic_receptors\t'
+    'P25100|ADA1D_HUMAN|Adrenergic_receptors\t'
+    'P97718|ADA1A_MOUSE|Adrenergic_receptors\t'
+    'P35348|ADA1A_HUMAN|Adrenergic_receptors\t'
+    'P18130|ADA1A_BOVIN|Adrenergic_receptors\t'
+    'O77621|ADA1A_CANLF|Adrenergic_receptors\t'
+    'Q9WU25|ADA1A_CAVPO|Adrenergic_receptors\t'
+    'O02824|ADA1A_RABIT|Adrenergic_receptors\t'
+    'P18841|ADA1B_MESAU|Adrenergic_receptors\t'
+    'P15823|ADA1B_RAT|Adrenergic_receptors\t'
+    'P35368|ADA1B_HUMAN|Adrenergic_receptors\t'
+    'P97717|ADA1B_MOUSE|Adrenergic_receptors\t'
+    'Q9TTM9|ADA1D_PIG|Adrenergic_receptors\t'
+    'P23944|ADA1D_RAT|Adrenergic_receptors\t'
+    'P97714|ADA1D_MOUSE|Adrenergic_receptors\t'
+    'O02666|ADA1D_RABIT|Adrenergic_receptors\t'
+    'P11615|ADA1B_CANLF|Adrenergic_receptors\n']
+
+<<<<<blastclust>>>>>:
+    P35373|AGTRB_XENLA|Angiotensin_receptors
+	P32303|AGTRA_XENLA|Angiotensin_receptors
+	O35210|AGTR1_MERUN|Angiotensin_receptors
+	O77590|AGTR1_SHEEP|Angiotensin_receptors
+	P25095|AGTRA_RAT|Angiotensin_receptors
+	P25104|AGTR1_BOVIN|Angiotensin_receptors
+	P29089|AGTRB_RAT|Angiotensin_receptors
+	P29754|AGTRA_MOUSE|Angiotensin_receptors
+	P29755|AGTRB_MOUSE|Angiotensin_receptors
+	P30555|AGTR1_PIG|Angiotensin_receptors
+	P30556|AGTR1_HUMAN|Angiotensin_receptors
+	P33396|AGTR1_MELGA|Angiotensin_receptors
+	P34976|AGTR1_RABIT|Angiotensin_receptors
+	P43240|AGTR1_CANLF|Angiotensin_receptors
+	P79785|AGTR1_CHICK|Angiotensin_receptors
+	Q9GLN9|AGTR1_PANTR|Angiotensin_receptors
+	Q9WV26|AGTR1_CAVPO|Angiotensin_receptors
+
+    P70658|CXCR4_MOUSE|Chemokines_and_chemotactic_factors_receptors
+    P25930|CXCR4_BOVIN|Chemokines_and_chemotactic_factors_receptors
+    P56498|CXCR4_FELCA|Chemokines_and_chemotactic_factors_receptors
+    Q3LSL6|CXCR4_CANLF|Chemokines_and_chemotactic_factors_receptors
+    Q764M9|CXCR4_PIG|Chemokines_and_chemotactic_factors_receptors
+    O62747|CXCR4_CERAT|Chemokines_and_chemotactic_factors_receptors
+    P56491|CXCR4_PAPAN|Chemokines_and_chemotactic_factors_receptors
+    P61072|CXCR4_PANTR|Chemokines_and_chemotactic_factors_receptors
+    P61073|CXCR4_HUMAN|Chemokines_and_chemotactic_factors_receptors
+    P79394|CXCR4_MACMU|Chemokines_and_chemotactic_factors_receptors
+    Q28474|CXCR4_MACFA|Chemokines_and_chemotactic_factors_receptors
+    Q8HZU0|CXCR4_SAISC|Chemokines_and_chemotactic_factors_receptors
+    Q8HZU1|CXCR4_CALJA|Chemokines_and_chemotactic_factors_receptors
+    Q9TSQ8|CXCR4_CHLAE|Chemokines_and_chemotactic_factors_receptors
+
+    P34970|AA1R_RABIT|Adenosine_and_adenine_nucleotide_receptors
+    P11616|AA1R_CANLF|Adenosine_and_adenine_nucleotide_receptors
+    P25099|AA1R_RAT|Adenosine_and_adenine_nucleotide_receptors
+    P28190|AA1R_BOVIN|Adenosine_and_adenine_nucleotide_receptors
+    P30542|AA1R_HUMAN|Adenosine_and_adenine_nucleotide_receptors
+    P47745|AA1R_CAVPO|Adenosine_and_adenine_nucleotide_receptors
+    Q5RF57|AA1R_PONAB|Adenosine_and_adenine_nucleotide_receptors
+    Q60612|AA1R_MOUSE|Adenosine_and_adenine_nucleotide_receptors
+    P49892|AA1R_CHICK|Adenosine_and_adenine_nucleotide_receptors
+
+    P11483|ACM3_PIG|Acetylcholine_(muscarinic)_receptors
+    P20309|ACM3_HUMAN|Acetylcholine_(muscarinic)_receptors
+    P41984|ACM3_BOVIN|Acetylcholine_(muscarinic)_receptors
+    Q9N2A2|ACM3_PONPY|Acetylcholine_(muscarinic)_receptors
+    Q9N2A3|ACM3_GORGO|Acetylcholine_(muscarinic)_receptors
+    Q9N2A4|ACM3_PANTR|Acetylcholine_(muscarinic)_receptors
+    Q9ERZ3|ACM3_MOUSE|Acetylcholine_(muscarinic)_receptors
+
+    Q91175|ADA1A_ORYLA|Adrenergic_receptors
+    O02824|ADA1A_RABIT|Adrenergic_receptors
+    P18130|ADA1A_BOVIN|Adrenergic_receptors
+    P35348|ADA1A_HUMAN|Adrenergic_receptors
+    P43140|ADA1A_RAT|Adrenergic_receptors
+    P97718|ADA1A_MOUSE|Adrenergic_receptors
+    Q9WU25|ADA1A_CAVPO|Adrenergic_receptors
+
+    P06199|ACM2_PIG|Acetylcholine_(muscarinic)_receptors
+    P08172|ACM2_HUMAN|Acetylcholine_(muscarinic)_receptors
+    P10980|ACM2_RAT|Acetylcholine_(muscarinic)_receptors
+    P30372|ACM2_CHICK|Acetylcholine_(muscarinic)_receptors
+    Q9ERZ4|ACM2_MOUSE|Acetylcholine_(muscarinic)_receptors
+    P41985|ACM2_BOVIN|Acetylcholine_(muscarinic)_receptors
+    Q9N2A7|ACM2_PANTR|Acetylcholine_(muscarinic)_receptors
+
+    P04761|ACM1_PIG|Acetylcholine_(muscarinic)_receptors
+    P08482|ACM1_RAT|Acetylcholine_(muscarinic)_receptors
+    P11229|ACM1_HUMAN|Acetylcholine_(muscarinic)_receptors
+    P12657|ACM1_MOUSE|Acetylcholine_(muscarinic)_receptors
+    P56489|ACM1_MACMU|Acetylcholine_(muscarinic)_receptors
+    Q5R949|ACM1_PONAB|Acetylcholine_(muscarinic)_receptors
+
+    P11617|AA2AR_CANLF|Adenosine_and_adenine_nucleotide_receptors
+    P29274|AA2AR_HUMAN|Adenosine_and_adenine_nucleotide_receptors
+    Q6TLI7|AA2AR_HORSE|Adenosine_and_adenine_nucleotide_receptors
+    P30543|AA2AR_RAT|Adenosine_and_adenine_nucleotide_receptors
+    Q60613|AA2AR_MOUSE|Adenosine_and_adenine_nucleotide_receptors
+    P46616|AA2AR_CAVPO|Adenosine_and_adenine_nucleotide_receptors
+
+    P49682|CXCR3_HUMAN|Chemokines_and_chemotactic_factors_receptors
+    O88410|CXCR3_MOUSE|Chemokines_and_chemotactic_factors_receptors
+    Q9JII9|CXCR3_RAT|Chemokines_and_chemotactic_factors_receptors
+    Q5MD61|CXCR3_BOVIN|Chemokines_and_chemotactic_factors_receptors
+    Q867B2|CXCR3_CAPHI|Chemokines_and_chemotactic_factors_receptors
+    Q5KSK8|CXCR3_CANLF|Chemokines_and_chemotactic_factors_receptors
+
+    O02666|ADA1D_RABIT|Adrenergic_receptors
+    P25100|ADA1D_HUMAN|Adrenergic_receptors
+    Q9TTM9|ADA1D_PIG|Adrenergic_receptors
+    P97714|ADA1D_MOUSE|Adrenergic_receptors
+    P23944|ADA1D_RAT|Adrenergic_receptors
+
+    P29275|AA2BR_HUMAN|Adenosine_and_adenine_nucleotide_receptors
+    Q1LZD0|AA2BR_BOVIN|Adenosine_and_adenine_nucleotide_receptors
+    Q32ZE2|AA2BR_RABIT|Adenosine_and_adenine_nucleotide_receptors
+    Q60614|AA2BR_MOUSE|Adenosine_and_adenine_nucleotide_receptors
+    Q6W3F4|AA2BR_CANLF|Adenosine_and_adenine_nucleotide_receptors
+
+    P35368|ADA1B_HUMAN|Adrenergic_receptors
+    P15823|ADA1B_RAT|Adrenergic_receptors
+    P18841|ADA1B_MESAU|Adrenergic_receptors
+    P97717|ADA1B_MOUSE|Adrenergic_receptors
+
+    P35374|AGTR2_MOUSE|Angiotensin_receptors
+    P50052|AGTR2_HUMAN|Angiotensin_receptors
+    Q9Z0Z6|AGTR2_MERUN|Angiotensin_receptors
+
+    Q28838|ADA2A_BOVIN|Adrenergic_receptors
+    Q60474|ADA2A_CAVPO|Adrenergic_receptors
+
+    P11615|ADA1B_CANLF|Adrenergic_receptors
+
+    O77621|ADA1A_CANLF|Adrenergic_receptors
